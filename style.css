@@ -472,16 +472,26 @@ p{
       width: 100%;
       display: block;
     }
+    .resim2{
+        width: 300px;
+    }
     .article{
-        display: flex;
-        flex-direction: column;
+        display: block;
+        /* flex-direction: column; */
+        /* width: 00px;
+        margin: auto; */
 
+    }
+    .article .resim2{
+        width: 390px;
+        margin: auto;
     }
     .article-text{
         display: block;
         width: 390px;
         font-size: 20px;
         height: auto;
+        margin: auto;
     }
     .footer{
         display: grid;
@@ -502,8 +512,9 @@ p{
         display: block;
     }
     .foto img{
-        width: 560px;
+        width: 390px;
         height: auto;
+        margin: auto;
     }
     .solkutu{
         font-size: 12px;
